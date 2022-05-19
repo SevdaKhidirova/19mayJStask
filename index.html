@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+    <title>Form</title>
+</head>
+<body>
+    <div class="container pt-5">
+      <form class="info-area ">
+        <h2 class="mb-3">Pls Enter Your Information </h2>
+         <div class="row">
+            <div class="col-md-6">
+                <input type="text" placeholder="Ad" class="form-control name" required>
+            </div>
+            <div class="col-md-6">
+            <input type="text" placeholder="Soyad" class="form-control surname mt-2 " required>
+            </div>
+            <div class="col-md-6">
+                <input type="text" placeholder="Ata adı" class="form-control mt-3 faName" required>
+            </div>
+            <div class="col-md-6">
+                <input type="date" placeholder="Doğum Tarixi" class="form-control mt-3 date" required>
+            </div>
+            <div class="col-md-6">
+                <input type="file" class="form-control mt-3 file-upload" required accept="image/*">
+            </div>
+         </div>
+         <button type="button" class="btn btn-primary mt-3 submitBtn">Submit</button>
+         <button type="reset" class="btn btn-outline-info mt-3 mx-2">Reset</button>
+      </form>
+      <div class="profile d-none">
+          <div class="logo">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Facebook_Logo_%282019%29.svg/1200px-Facebook_Logo_%282019%29.svg.png" alt="">
+          </div>
+         <div class="row">
+            <div class="col-md-4 image">
+                <!-- <img src="https://media.macphun.com/img/uploads/customer/how-to/579/15531840725c93b5489d84e9.43781620.jpg?q=85&w=1340" alt=""> -->
+            </div>
+            <div class="col-md-8 info-area-prof">
+
+            </div>
+         </div>
+      </div>
+    </div>
+    <script src="./JS/main.js"></script>
+</body>
+</html>
